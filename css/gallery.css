@@ -2,7 +2,8 @@
     display: grid !important;
 }
 [class*="gallery"][class*="2"] {
-    grid-gap: 0.5em !important;
+    /* grid-gap: 1em !important; */
+    /* height: 320px; */
     grid-template-columns: 1fr 1fr !important;
 }
 

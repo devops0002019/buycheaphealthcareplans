@@ -4,7 +4,7 @@ full row healine
 
 .headline {
 
-margin-bottom: 2em;
+    margin-bottom: 2em;
     text-align: center;
     grid-column: 1 / -1;
 }
@@ -18,7 +18,7 @@ margin-bottom: 2em;
 
 
 
-
+.title,
 .fullrow {
     text-align: center;
     grid-column: 1 / -1;
@@ -46,7 +46,7 @@ margin-bottom: 2em;
 }
 
 
-.center {
+.text-center {
     text-align: center !important;
 }
 
@@ -89,6 +89,7 @@ margin-bottom: 2em;
 [class*="5em"] {
     --fa-font-size: 5em;
 }
+
 [class*="6em"] {
     --fa-font-size: 6em;
 }
@@ -109,10 +110,19 @@ margin-bottom: 2em;
 }
 
 
-
 .text-white {
-    color:#fff !important;
+    color: #fff !important;
+}
+
+.text-black {
+    color: #000 !important;
 }
 
 
 
+
+.labels {
+    border-radius: 8px;
+    padding: 32px;
+    border: 1px solid var(--border);
+}

@@ -57,7 +57,7 @@ column
     --insert-max-width: 100%;
     --insert-min-width: inherit;
     --insert-height: auto;
-    --insert-min-height: 25vh;
+    --insert-min-height: auto;
     --insert-max-height: inherit;
     --insert-box-shadow: inherit;
 
@@ -397,7 +397,7 @@ column Helpers
 
 
 [class*="column"].layout-start {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     --insert-align-items: start;
 }
 
@@ -470,5 +470,15 @@ column Helpers
 
 
 [class*="column"] > * {
-    margin: 0.5em 0px !important;
+    margin: 0.5px 0px !important;
 }
+
+
+
+
+
+[class*="column"] figure {
+    padding:0  32px 0 0;
+}
+
+

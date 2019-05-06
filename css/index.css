@@ -34,6 +34,8 @@
 /*Loads menus.css*/
 @import url('menus.css');
 /* loads utilities */
+@import url("typography.css");
+/* loads utilities */
 @import url("utilities.css");
 /* loads column */
 @import url("column.css");
