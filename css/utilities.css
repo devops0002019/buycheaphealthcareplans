@@ -126,3 +126,9 @@ full row healine
     padding: 32px;
     border: 1px solid var(--border);
 }
+
+
+
+.border-white {
+    border:1px solid rgb(148, 139, 139) !important;
+}

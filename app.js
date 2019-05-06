@@ -58,6 +58,11 @@ function footer_template(foot) {
         determines which insurers are available to you. Click here for a list of the insurers or contact
         us for more information about PAA's commission. Discounts not available in all states and
         situations.</p>
+
+        <ul class="menu-list flex-start">
+           <li> <a class="link" href="privacy.html">Private Policy</a></li>
+           <li><a class="link" href="disclaimer.html">Disclaimer</a></li>
+        </ul>
     </div>
     </div>
   `;
