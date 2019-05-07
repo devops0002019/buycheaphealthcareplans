@@ -15,14 +15,9 @@
 }
 
 
-.menu-list.flex-between {
+.menu-list.display-between {
      --menu-list-justify-content: space-between;
 }
-.menu-list.flex-around {
+.menu-list.display-around {
      --menu-list-justify-content: space-around;
 }
-
-.menu-list.flex-start {
-     --menu-list-justify-content: start !important;
-}
-

@@ -1,6 +1,29 @@
-/*
-full row healine
-------------------------------------------------------------------------*/
+.padding-16 {
+    padding: 16px!important;
+}
+.padding-32 {
+    padding: 32px!important;
+}
+.padding-64 {
+    padding: 64px!important;
+}
+.padding-128 {
+    padding: 128px!important;
+}
+
+
+
+
+.labels {
+    border-radius: 8px;
+    padding: 32px;
+    border: 1px solid var(--border);
+}
+
+
+
+
+
 
 .headline {
 
@@ -119,16 +142,3 @@ full row healine
 }
 
 
-
-
-.labels {
-    border-radius: 8px;
-    padding: 32px;
-    border: 1px solid var(--border);
-}
-
-
-
-.border-white {
-    border:1px solid rgb(148, 139, 139) !important;
-}

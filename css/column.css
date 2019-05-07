@@ -57,7 +57,7 @@ column
     --insert-max-width: 100%;
     --insert-min-width: inherit;
     --insert-height: auto;
-    --insert-min-height: auto;
+    --insert-min-height: 100px;
     --insert-max-height: inherit;
     --insert-box-shadow: inherit;
 
@@ -427,6 +427,22 @@ column Helpers
 }
 
 
+
+.start-vertical-around {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
 .center-vertical-between {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -470,7 +486,7 @@ column Helpers
 
 
 [class*="column"] > * {
-    margin: 0.5px 0px !important;
+    margin: 0.5em 0px !important;
 }
 
 
@@ -482,3 +498,8 @@ column Helpers
 }
 
 
+
+
+.min-height-300 {
+    min-height:300px !important;
+}

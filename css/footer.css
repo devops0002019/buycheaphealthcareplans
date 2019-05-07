@@ -31,9 +31,12 @@
     display: flex;
     width: 100%;
     grid-column: 1 / -1;
-}
-ul.menu-list a {
-    margin-right:16px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
