@@ -8,12 +8,12 @@ a.inverted {
 }
 [class*="column"].headeline {
     text-align:center;
-    grid-column: 1 / -1;
+    grid-column: 1 / -1!important;
 
 }
 [class*="column"].headeline a{
     margin: 16px !important;
 }
 hr {
-    margin: 0;
+    margin: 0 !important;
 }
