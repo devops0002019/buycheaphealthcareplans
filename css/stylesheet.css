@@ -17,3 +17,18 @@ a.inverted {
 hr {
     margin: 0 !important;
 }
+
+
+
+.company-name {
+    font-size: 1em !important;
+    --company-name: 'Buy Cheap Healthcare Plans';
+}
+
+.company-name:after {
+    content: var(--company-name) !important;
+} 
+
+h4 {
+    margin-top: 1em !important;
+}
